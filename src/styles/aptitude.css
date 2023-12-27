@@ -1,0 +1,82 @@
+/********** Auto resonsive text in React ************/
+
+/* Declare a font size multiplier variable */
+/* :root {
+  --text-multiplier: 1;
+} */
+
+/* Increase the size of the multiplier on bigger screens
+@media (min-width: 48rem) {
+  html{
+    font-size: 16px
+  }
+  :root {
+    --text-multiplier: 1.5;
+  }
+}
+Declare text styles using calc() function and the multiplier
+h1 {
+  font-size: calc(2em * var(--text-multiplier));
+}
+h2 {
+  font-size: calc(1.5em * var(--text-multiplier));
+}
+p {
+  font-size: calc(1em * var(--text-multiplier));
+} */
+/********** Auto resonsive text in React ************/
+.app {
+  text-align: center;
+  padding: 20px;
+}
+
+.timer {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.question-container {
+  border: 1px solid #ccc;
+  padding: 20px;
+  margin: 20px auto;
+  max-width: 600px;
+  background-color: #f9f9f9;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+}
+
+.option {
+  list-style-type: none;
+  margin: 10px 0;
+  padding: 10px;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.option:hover {
+  background-color: #f0f0f0;
+}
+
+.option.correct {
+  background-color: #a3e8a3; /* Highlight correct answers */
+}
+
+.option.incorrect {
+  background-color: #f5a3a3; 
+}
+
+.option.chosen {
+  background-color: #1a5bb1; /* Highlight chosen (incorrect) answers */
+}
+
+.button-container {
+  margin-top: 20px;
+}
+
+button {
+  padding: 10px 20px;
+  margin: 0 5px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+/* Additional styling can be added here */

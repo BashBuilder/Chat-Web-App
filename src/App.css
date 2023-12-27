@@ -1,0 +1,25 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+@media screen and (max-width: 737px) {
+  html{
+    font-size: 12px;
+  }
+}
+@media (min-width: 768px) and (max-width: 1023px) {
+  html{
+    font-size: 14px;
+  }
+}
+@media (min-width: 1024px) and (max-width: 1279px) {
+  /* Styles for small desktop screens */
+}
+@media (min-width: 1280px) and (max-width: 1439px) {
+  /* Styles for medium desktop screens */
+}
+@media (min-width: 1440px) {
+  /* Styles for large desktop screens */
+}
+
